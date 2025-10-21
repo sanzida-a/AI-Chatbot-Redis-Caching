@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+*.sqlite3
+
+# VS Code
+.vscode/
+.history/
+
+# Docker
+*.log
+docker-compose.override.yml
+*.pid
+*.sock
+
+# Redis
+dump.rdb
+appendonly.aof
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optional: logs
+logs.txt
